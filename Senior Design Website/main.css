@@ -11,6 +11,7 @@ header{
 header h1 {
 margin: 0;
 display: inline;
+font-size: 40;
 }
 
 nav h1 a {
@@ -22,20 +23,51 @@ nav ul{
 	margin: 0;
 	display: inline;
 	padding: 0 0 0 15px;
-	float: right;
+	
+	
 
 }
 
 nav ul li{
-	background: black;
+	background: #0099cc;
 	color: white;
     list-style-type: none;
 	display: inline-block;
-    margin: 0;
+    margin: 2% 5% 0 5%;
     padding: 5px 15px ;
     border-radius: 5px;
+    float: left;
 }
 
 nav ul li a{
 	color: white;
+	text-decoration: none;
+	font-size: 20;
+
+   
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+	background-color: black;
+
+}
+
+nav ul li a:active{
+	background-color: black;
+}
+.picture {
+padding: 10% 5%;
+float: left;
+
+}
+
+.picture_other{
+	padding: 5% 5%;
+	float: left;
+}
+
+.background{
+	background-color: #0099cc;
+	height: 10%;
 }
