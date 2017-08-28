@@ -56,8 +56,12 @@ nav ul li:hover {
 nav ul li a:active{
 	background-color: black;
 }
+
+footer{
+	clear: both;
+}
 .picture {
-padding: 10% 5%;
+padding: 2% 2% 0 1%;
 float: left;
 
 }
@@ -70,4 +74,8 @@ float: left;
 .background{
 	background-color: #0099cc;
 	height: 10%;
+}
+
+.back_color{
+	background-color: black;
 }
